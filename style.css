@@ -34,3 +34,11 @@ body{background-color: rgb(209, 205, 205);font-family: "Montserrat", sans-serif;
 .bg-navbar-propio {
     background-color: rgb(98, 173, 243);
 }
+
+.carrusel-link {
+    text-decoration: none; color: white;
+}
+
+.bg-footer {
+    background-color: rgb(98, 173, 243);
+}
