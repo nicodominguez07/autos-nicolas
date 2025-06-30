@@ -42,16 +42,26 @@
     </header>
     <main>
         <h1 class="TITULO-PRINCIPAL">ACCEDE A TU 0 KM O USADO MEDIANTE UN PRESTAMO PRENDARIO </h1>
-        <section>
-            <article>                
-                <h3 class="credito-prendario">¿Que es un prestamo prendario?</h3>
-                <p>Un crédito prendario es un tipo de crédito que se utiliza para financiar la compra de bienes muebles registrables, como vehículos, con la garantía de una prenda sobre el bien que se está adquiriendo. La prenda implica que el bien adquirido queda como garantía del crédito hasta que se cancela la deuda.</p>
-
-            </article>
-
-
-        </section>
-        <img src="../assets/COMPRANDO AUTO.jpg" alt="">
+        <section class="container-fluid">
+            <div class="row">
+                <div class="col">                
+                    <h3 class="credito-prendario">¿Que es un prestamo prendario?</h3>
+                    <p>Un crédito prendario es un tipo de crédito que se utiliza para financiar la compra de bienes muebles registrables, como vehículos, con la garantía de una prenda sobre el bien que se está adquiriendo. La prenda implica que el bien adquirido queda como garantía del crédito hasta que se cancela la deuda. Trabajamos con los mejores bancos de la región.</p>
+                    <h3>¿Cómo funciona?</h3>
+                    <ul>
+                        <li>Elegis el auto en nuestra concesionaria</li>
+                        <li>Solicitas el credito con la entidad que trabajes con nosotros</li>
+                        <li>Una vez aprobado el credito, te llevas el auto y comenzá a pagarlo en cuotas fijas</li>
+                        <li>Al finalizar el crédito, el auto queda 100% a tu nombre, sin ninguna prenda</li>
+                    </ul>
+                    <p>No dejes que el auto que querés se te escape. Con nuestros planes de financiación, estrenar tu vehículo es más fácil de lo que imaginás. Hoy podés empezar a manejar con una mínima inversión inicial y cuotas que se ajustan a tu bolsillo.
+                    ¿Vas a seguir esperando? Tu auto te está esperando. ¡Animate a dar el primer paso!</p>
+                </div>
+                <div class="col">
+                    <img src="../assets/COMPRANDO AUTO.jpg" alt="">
+                </div>
+            </div>            
+        </section>        
 
         <section class="section-financiacion">
             <article>
@@ -60,41 +70,45 @@
                 <p>Hasta 72 meses</p>
                 <p>Tasa Fija 50% TNA</p>                
             </article>
-
         </section>
 
         <section>
-            <h2>DEJA TUS DATOS Y NOS CONTACTAMOS PARA OFRECERTE ESTA FINANCIACION</h2>
-            <ul>
-                <li>
-                    <form action=""></form>
-                    <label for="">Apellido y nombre</label>
-                    <input type="text">
-                </li>
-                <li>
-                    <form action=""></form>
-                    <label for="">CUIL</label>
-                    <input type="text">
-                </li>
-                <li>
-                    <form action=""></form>
-                    <label for="">Telefono celular</label>
-                    <input type="text">
-                </li>
-                <li>
-                    <form action=""></form>
-                    <label for="">Correo electronico</label>
-                    <input type="text">
-                </li>    
-            
+            <h2 class="text-center">DEJA TUS DATOS Y NOS CONTACTAMOS PARA OFRECERTE ESTA FINANCIACION</h2>
 
-                    
-                
-            
-            </ul>
+        <form class="col-md-3" novalidate>
+        <div class="row-formulario">
+            <label for="validationTooltip01" class="form-label">Apellidos y nombres</label>
+            <input type="text" class="form-control" id="validationTooltip01" value="" required>
+            <div class="valid-tooltip">            
+            </div>
+        </div>
+        <div class="row-formulario">
+            <label for="validationTooltip02" class="form-label">CUIL</label>
+            <input type="text" class="form-control" id="validationTooltip02" value="" required>
+            <div class="valid-tooltip">            
+            </div>
+        </div>       
+        <div class="row-formulario">
+            <label for="validationTooltip03" class="form-label">Telefono celular</label>
+            <input type="text" class="form-control" id="validationTooltip03" required>
+            <div class="invalid-tooltip">
+            </div>
+        </div>
+        <div class="row-formulario">
+            <label for="validationTooltip03" class="form-label">Correo electronico</label>
+            <input type="text" class="form-control" id="validationTooltip03" required>
+            <div class="invalid-tooltip">
+            </div>
+        </div>       
+        
+        <div class="row-12 boton-enviar">
+            <button class="btn btn-propio" type="submit">Submit form</button>
+        </div>        
+        </form>                
 
         </section>
 
+                
 
     </main>
 

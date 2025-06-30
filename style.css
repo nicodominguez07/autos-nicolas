@@ -8,9 +8,9 @@ body{background-color: rgb(209, 205, 205);font-family: "Montserrat", sans-serif;
 .li-nav{list-style: none; text-decoration: none;}
 .nav-link{text-decoration: none; color: black;}
 
-.TITULO-PRINCIPAL{text-align: center; font-weight: bolder;
+.TITULO-PRINCIPAL{text-align: center; font-weight: bolder; padding-bottom: 20px; padding-top: 20px;
 }
-.credito-prendario{text-decoration: underline;}
+.credito-prendario{text-decoration: underline; text-align: center;}
 
 .section-financiacion{font-weight: bold;}
 
@@ -48,4 +48,18 @@ body{background-color: rgb(209, 205, 205);font-family: "Montserrat", sans-serif;
     padding-top: 40px;
     padding-left: 30px;
     
+}
+
+.row-formulario {
+    padding-left: 10px;
+}
+
+.btn-propio {
+    background-color: rgb(98, 173, 243);
+}
+
+.boton-enviar {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
