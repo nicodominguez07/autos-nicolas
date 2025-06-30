@@ -42,3 +42,10 @@ body{background-color: rgb(209, 205, 205);font-family: "Montserrat", sans-serif;
 .bg-footer {
     background-color: rgb(98, 173, 243);
 }
+
+.logo-pagina-footer {
+    width: 160px;
+    padding-top: 40px;
+    padding-left: 30px;
+    
+}
