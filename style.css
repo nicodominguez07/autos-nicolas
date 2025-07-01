@@ -63,3 +63,15 @@ body{background-color: rgb(209, 205, 205);font-family: "Montserrat", sans-serif;
     padding-bottom: 10px;
     padding-top: 10px;
 }
+
+.bg-card-propio {
+    background-color: rgb(209, 205, 205);
+}
+
+.card-fotos {
+    width: 950px;
+}
+
+.card-border {
+    border: none;
+}
