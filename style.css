@@ -33,6 +33,7 @@ body{background-color: rgb(209, 205, 205);font-family: "Montserrat", sans-serif;
 
 .bg-navbar-propio {
     background-color: rgb(98, 173, 243);
+    margin-bottom: 0;
 }
 
 .carrusel-link {
@@ -74,4 +75,16 @@ body{background-color: rgb(209, 205, 205);font-family: "Montserrat", sans-serif;
 
 .card-border {
     border: none;
+}
+
+.logo-sobrenosotros {
+    width: 400px;
+}
+
+.padding-sobrenosotros {
+    padding: 50px;
+}
+
+.padding-postventa {
+    padding: 70px;
 }
