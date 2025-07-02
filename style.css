@@ -88,3 +88,7 @@ body{background-color: rgb(209, 205, 205);font-family: "Montserrat", sans-serif;
 .padding-postventa {
     padding: 70px;
 }
+
+.main-margin {
+    margin-left: 30px;
+}
