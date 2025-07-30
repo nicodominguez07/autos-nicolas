@@ -1,6 +1,7 @@
 @use "../utilities/variable";
 
 .bg-navbar-propio {
-    background-color: variable.$background-color;
+    background-image: linear-gradient(to right, white, variable.$background-color );
+    
     margin-bottom: 0;
 }

@@ -1,9 +1,16 @@
-
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   background-color: rgb(209, 205, 205);
   font-family: "Montserrat", sans-serif;
+}
+
+.logo-pagina {
+  width: 80px;
 }
 
 .li-nav {
@@ -64,28 +71,9 @@ body {
   font-size: 15px;
 }
 
-.logo-pagina {
-  width: 80px;
-}
-
-.bg-navbar-propio {
-  background-color: rgb(98, 173, 243);
-  margin-bottom: 0;
-}
-
 .carrusel-link {
   text-decoration: none;
   color: white;
-}
-
-.bg-footer {
-  background-color: rgb(98, 173, 243);
-}
-
-.logo-pagina-footer {
-  width: 160px;
-  padding-top: 40px;
-  padding-left: 30px;
 }
 
 .row-formulario {
@@ -102,18 +90,6 @@ body {
   padding-top: 10px;
 }
 
-.bg-card-propio {
-  background-color: rgb(209, 205, 205);
-}
-
-.card-fotos {
-  width: 950px;
-}
-
-.card-border {
-  border: none;
-}
-
 .logo-sobrenosotros {
   width: 400px;
 }
@@ -128,6 +104,33 @@ body {
 
 .main-margin {
   margin-left: 30px;
+}
+
+.bg-footer {
+  background-color: rgb(98, 173, 243);
+}
+
+.logo-pagina-footer {
+  width: 160px;
+  padding-top: 40px;
+  padding-left: 30px;
+}
+
+.bg-navbar-propio {
+  background-image: linear-gradient(to right, white, rgb(98, 173, 243));
+  margin-bottom: 0;
+}
+
+.bg-card-propio {
+  background-color: rgb(209, 205, 205);
+}
+
+.card-fotos {
+  width: 950px;
+}
+
+.card-border {
+  border: none;
 }
 
 @media (max-width: 430px) {
