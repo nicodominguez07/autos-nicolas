@@ -1,0 +1,6 @@
+@use "../utilities/variable";
+
+.bg-navbar-propio {
+    background-color: variable.$background-color;
+    margin-bottom: 0;
+}
